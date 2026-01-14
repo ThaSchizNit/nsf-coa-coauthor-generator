@@ -23,3 +23,14 @@ Automatically extracts your co-authors from PubMed publications (last 48 months)
    ```python
    author_name = "YourLastName Initials"     # e.g., "Schisler JC" or "Smith AB"
    your_email = "your.email@institution.edu" # REQUIRED by NCBI/PubMed
+- If few/no results, try variations like "LastName J" or full "LastName, First M".
+
+4. Run the cells top-to-bottom:
+- Cell 1: installs Biopython (only once)
+- Cell 2: defines the function (no edit needed)
+- Cell 3: runs your search (wait 1–5 min)
+- Cell 4: generates preview + downloads coa_coauthors.tsv
+
+5. Open the downloaded coa_coauthors.tsv in Excel:
+- Select columns A:C (Marker, Name, Organizational Affiliation)
+- Copy → paste directly into your NSF COA Excel template (Table 4 section, usually starting around row 52)
