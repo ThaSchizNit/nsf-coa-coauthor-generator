@@ -35,11 +35,18 @@ Automatically extracts your co-authors from PubMed publications (last 48 months)
 - Select columns A:C (Marker, Name, Organizational Affiliation)
 - Copy → paste directly into your NSF COA Excel template (Table 4 section, usually starting around row 52)
 
-Example Output Preview
-Marker,Name,Organizational Affiliation
-A:,"Adkins, Joshua N","Biological Science Division, Pacific Northwest National Laboratory, Richland, WA 99354."
-A:,"Afolayan, Adeleye J","Department of Pediatrics, Children's Research Institute and Cardiovascular Research Center, Medical College of Wisconsin, Milwaukee, WI 53226, USA."
-A:,"Albrecht, Lars A","University of North Carolina McAllister Heart Institute, Chapel Hill, NC."
+### Example Output Preview
+This is what the TSV looks like when opened in Excel (or previewed in the notebook):
+
+| Marker | Name                | Organizational Affiliation                                                                 |
+| :----- | :------------------ | :----------------------------------------------------------------------------------------- |
+| A:     | Adkins, Joshua N    | Biological Science Division, Pacific Northwest National Laboratory, Richland, WA 99354.   |
+| A:     | Afolayan, Adeleye J | Department of Pediatrics, Children's Research Institute and Cardiovascular Research Center, Medical College of Wisconsin, Milwaukee, WI 53226, USA. |
+| A:     | Albrecht, Lars A    | University of North Carolina McAllister Heart Institute, Chapel Hill, NC.                  |
+| A:     | Allen, Noah         | Department of Biomedical Engineering, Rensselaer Polytechnic Institute, Troy, NY, USA.     |
+| A:     | Beheshti, Afshin    | COVID-19 International Research Team.                                                      |
+
+(Note: Full affiliations are preserved with all commas; "Unknown" appears only if PubMed lacks affiliation data.)
 
 License
 MIT License — see LICENSE for full text.
