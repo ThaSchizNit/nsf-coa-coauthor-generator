@@ -34,3 +34,7 @@ Automatically extracts your co-authors from PubMed publications (last 48 months)
 5. Open the downloaded coa_coauthors.tsv in Excel:
 - Select columns A:C (Marker, Name, Organizational Affiliation)
 - Copy → paste directly into your NSF COA Excel template (Table 4 section, usually starting around row 52)
+
+Questions or issues? Open an issue here or reach out on X: [@NitDawg](https://x.com/NitDawg)
+
+Happy proposing!
