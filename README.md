@@ -14,7 +14,7 @@ Automatically extracts your co-authors from PubMed publications (last 48 months)
 ### How to Use (takes ~2–5 minutes)
 1. Click the button to open the notebook in Colab:
 
-[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)]([https://colab.research.google.com/github/ThaSchizNit/nsf-coa-coauthor-generator/blob/main/NSF_COA_PubMed_CoAuthors.ipynb](https://colab.research.google.com/drive/1IYdDzzJQCYBIzHBk6S984x3OkVKOTfBq?usp=sharing)
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)]([https://colab.research.google.com/github/ThaSchizNit/nsf-coa-coauthor-generator/blob/main/NSF_COA_PubMed_CoAuthors.ipynb)
 
 2. **Make a copy** so you can edit:  
    File → Save a copy in Drive
