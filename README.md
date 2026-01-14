@@ -35,6 +35,21 @@ Automatically extracts your co-authors from PubMed publications (last 48 months)
 - Select columns A:C (Marker, Name, Organizational Affiliation)
 - Copy → paste directly into your NSF COA Excel template (Table 4 section, usually starting around row 52)
 
-Questions or issues? Open an issue here or reach out on X: [@NitDawg](https://x.com/NitDawg)
+Example Output Preview
+Marker,Name,Organizational Affiliation
+A:,"Adkins, Joshua N","Biological Science Division, Pacific Northwest National Laboratory, Richland, WA 99354."
+A:,"Afolayan, Adeleye J","Department of Pediatrics, Children's Research Institute and Cardiovascular Research Center, Medical College of Wisconsin, Milwaukee, WI 53226, USA."
+A:,"Albrecht, Lars A","University of North Carolina McAllister Heart Institute, Chapel Hill, NC."
 
-Happy proposing!
+License
+MIT License — see LICENSE for full text.
+You are free to use, modify, distribute, and incorporate this tool in your own work.
+
+Feedback / Issues
+Found a bug? Missing co-authors? Want a version for Google Scholar backup?
+→ Open an issue here or reply on X: @NitDawg
+
+Happy NSF proposing! 🚀
+— Jonathan C. Schisler (Chapel Hill, NC)
+
+Last updated: January 2026
